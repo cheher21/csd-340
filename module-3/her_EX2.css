@@ -1,1 +1,77 @@
+/* Styles for the overall HTML */
+html {
+    /* font-family: 'Oswald', sans-serif;
+    font-family: 'Quattrocento', serif; */
+    font-size: 16px;
+}
 
+/* Styles for both header 1 and header 2 */
+h1, h2 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;    
+}
+
+/* Styles for header 1 */
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3.054em;
+    word-spacing: .5em;
+    margin: 0;
+    text-align: center;
+}
+
+/* Styles for header 2 */
+h2 {
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: .2em;
+    margin: 0;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* Styles for paragraph */
+p {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* Styles for the address */
+address {
+    font-family: 'Quattrocento', Georgia, 'Times New Roman', serif;
+    text-align: center;
+}
+
+/* Styles for the Website */
+address a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+
+/* Styles for when website link is hover */
+address a:hover {
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+/* 
+    Styles for the when the website link is visited
+    Selected style is none 
+*/
+address a:visited {
+    text-decoration: none;
+}
+
+/* Styles for the sentence class in the fourth paragraph */
+span.sentence {
+    font-style: italic;
+}
+
+/* Indent shows very small for me in Chrome and Firefox */
+/* Styles for the intro class which is the first paragraph */
+.intro {
+    text-indent: .2em;
+}
