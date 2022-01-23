@@ -1,0 +1,36 @@
+/* Styles for the body */
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;    
+}
+
+/* Styles for the ID container */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Styles for the headers 1, 2, 3 and 4 */
+h1, h2, h3, h4 {
+    background-color: #3c275a;
+    color: #fff;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+/* Styles for the anchor tags of each unordered list */
+a {
+    color: #453674;
+    text-decoration: none;
+}
+
+/* Styles for the anchor tags when hovered */
+a:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/* Styles for the anchor tags when visited */
+a:visited {
+    color: #3c275a;
+}
