@@ -109,6 +109,10 @@ h2 {
 
 /* Styles for the Form */
 
+#line-form {
+    width: 95%;
+}
+
 .contact-form {
     padding: 10px;
     text-align: left;
