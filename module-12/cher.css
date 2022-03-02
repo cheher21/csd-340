@@ -107,11 +107,14 @@ h2 {
     box-shadow: 0 10px 20px 0 rgba(163, 196, 243, 5);
 }
 
-/* Styles for the Form */
+/* Styles for the line */
 
-#line-form {
+.line {
     width: 95%;
+    border: 1px solid #A3C4F3;
 }
+
+/* Styles for the Form */
 
 .contact-form {
     padding: 10px;
