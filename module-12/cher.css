@@ -11,6 +11,7 @@ html {
 
 body {
     margin: 0 auto;
+    background-color: #FBF8CC;
 }
 
 header {
@@ -24,33 +25,39 @@ header {
 }
 
 h1 {
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
 
 h2 {
     text-align: center;
+    font-size: 40px;
+    margin-bottom: -5px;
+    text-decoration: underline;
 }
 
 /* Styles for profile image and text */
 
+#me h1 {
+    margin-bottom: -10px;
+}
+
 #me {
-    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #me-pic {
-    /* border-radius: 50px; */
-    /* margin-left: 10%;  */
-    /* margin-right: 40px;  */
-    /* vertical-align: top; */
-    /* text-align: left;  */
+    border-radius: 50px;
+    margin-right: 40px; 
+    vertical-align: top;
 }
-
-
 
 #me p {
     display: inline-block;
-    width: 30%;
+    width: 65%;
 }
 
 /* Styles for the Hobbies & Experiences */
@@ -67,23 +74,31 @@ h2 {
 
 .title {
     text-align: center;
-    font-size: 2em;
+    font-size: 30px;
     color: black;
     font-weight: bold;
 }
 
+.content {
+    margin: 0 10px 0 10px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
 .img-content {
     width: 100%;
-    border-radius: 10px;
-    /* margin-top: 50px; */
+    border-radius: 70px;
     padding: 2px 16px;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(152, 245, 225, 0.5);
-    transition: 0.3s;
+    transition: 0.5s;
     width: 95%;
-    background-color: #FBF8CC;
+    background-color: #FDE4CF;
+    margin-left: 10px;
 }
 
 .card:hover {
@@ -97,7 +112,6 @@ h2 {
     padding: 10px;
     text-align: center;
     margin-bottom: 10%;
-    border: 5px solid #98F5E1;
 }
 
 .form {
@@ -119,8 +133,9 @@ h2 {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    padding: 15px 32px;
-    color: #000;
+    padding: 15px 25px;
+    color: black;
+    border-radius: 15px;
 }
 
 .input {
@@ -142,4 +157,19 @@ h2 {
 .btn:hover {
     background-color: #90DBF4;
     color: black;
+}
+
+#back-to-top {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #CFBAF0;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#back-to-top:hover {
+    text-decoration: none;
+    background-color: #FFCFD2;
 }
